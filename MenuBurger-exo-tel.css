@@ -1,0 +1,54 @@
+@media screen and (min-width: 1025px) {
+    #menu a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        height: 8vh;
+        justify-content: center;
+    }
+
+    #menu {
+        width: 100%;
+    }
+
+    #menu>li {
+        width: 19%;
+        height: 8vh;
+        position: relative;
+        display: inline-block;
+        background-color: black;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 2px 5px 5px gray;
+    }
+
+    #menu>li li {
+        background: rgb(54, 54, 54);
+    }
+
+    #menu>li li a {
+        color: white;
+    }
+
+    #menu>li li:hover {
+        background: rgb(133, 68, 253);
+    }
+
+    #menu>li:hover {
+        background: rgb(89, 0, 255);
+    }
+
+    #menu ul {
+        position: absolute;
+        max-height: 0cm;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #menu>li:hover ul {
+        max-height: 13cm;
+        width: 100%;
+    }
+}
